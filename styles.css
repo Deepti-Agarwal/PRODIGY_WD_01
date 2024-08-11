@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position:sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border:5px double rgb(125, 57, 129);
+    border-radius:4%;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: "lucida handwriting",cursive;
+    color: rgb(66, 17, 33);
+    text-shadow: 1px 1px 1px  rgb(234, 145, 174) ;
+    background-color: rgba(228, 166, 228, 0.3);
+    padding: 15px 20px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+ .nav-item:hover{
+    background-color:rgb(139, 59, 150);
+    color: white;
+}
+
+
+.scrolled {
+    background-color:rgb(245, 224, 245);
+}
+
+
+.height{
+    height: 100vh;
+}
+
+
+.div1{
+    position: relative;
+    height: inherit;
+    width:100%;
+
+}
+
+
+.img1{
+    height:inherit;
+    width:inherit;
+    opacity:75%;
+}
+
+
+.div2{
+    position:absolute;
+    top: 10%;
+    height:inherit;
+    width:inherit;
+}
+
+
+.head{
+    text-align:left;
+    margin-left:70px;
+    color: rgb(66, 17, 33);
+    text-shadow: 4px 4px 4px rgb(228, 166, 228);
+    font-family: "lucida handwriting",cursive;
+    font-size: 66px; 
+
+}
+
+.div3{
+    position:absolute;
+    top:12%;
+    left:35%;
+    height:75%;
+    width:55%;
+    padding:50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(66, 17, 33);
+    text-align: center;
+    font-size:26px;
+    font-family: "brush script mt",cursive;
+    border:5px dashed rgb(125, 57, 129);
+    border-radius:4%;
+    box-sizing: border-box;
+}
+
+
+
+
+
